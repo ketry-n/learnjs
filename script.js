@@ -28,6 +28,7 @@ let obj = {
         email: 'ketryn.parkonen@tptlive.ee'
     }
 };
+console.log(typeof obj);
 
 function hello() {
     console.log('hello');
