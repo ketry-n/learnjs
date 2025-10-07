@@ -1,30 +1,22 @@
-console.log(1 + 2);
-let num = 1; 
-console.log(num);
-num = num + 2; 
-console.log(num);
-num = num - 1; 
-console.log(num);
-num = num * 2
-console.log(num);
-num = num / 3;
-console.log(num);
-num = 3; 
-num = num ** 3;
-console.log(num);
-num = 9; 
-num = num % 2; // modulo 
-console.log(num);
-num += 2; 
-num -= 2;
-num *= 2; 
-num /= 2;
-num **= 2; 
-num %= 2; 
-console.log(num);
-num++;
-console.log(num);
-num--;
-console.log(num);
-num = Math.sqrt(9);
-console.log(num);
+let text = 'Hello' + 'World' + '!';
+console.log(text);
+text +='yuppi!';
+console.log(text);
+text = "don't do this";
+text = 'don\'t do\n this\t :3';
+console.log(text);
+text = 'tere tere tere tere hommikust tere tiit tere teet tere mai tere kai ' + 
+   'tere tere tere tere hommikust tere tiit tere teet tere mai tere kai ' +  
+   'tere tere tere tere hommikust tere tiit tere teet tere mai tere kai ';
+console.log(text);
+let name = 'Ketryn';
+let age = 26; 
+text = `Hello 
+this is multi line
+text`; 
+console.log(text);
+text = 'Hello' + name + '! You are' + age + 'years old!';
+text = `Hello ${name}! You are ${age} years old!`; 
+console.log(text);
+console.log(text.length);
+console.log(text.toUpperCase());
